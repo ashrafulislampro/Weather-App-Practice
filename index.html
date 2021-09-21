@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Temperature Hot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="text_input" placeholder="Enter a location for Weather ...">
+                <div class="input-group-append">
+                    <button type="button" id="search_btn" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+           
+            <h1><span id="city_name">Narsingdi</span>
+                <sup id="country_name">BD</sup>
+            </h1>
+            <br>
+            <h3><span id="temperature">38.06</span>&deg;C</h3>
+            <br>
+            <h3><span id="min_temp">25.06</span>&deg;C / <span id="max_temp">38.06</span>&deg;C </h3>
+            <br>
+            <div id="weather_status">
+                <h1 class="lead" id="description">Clouds </h1>
+                <img id="logo" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">               
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

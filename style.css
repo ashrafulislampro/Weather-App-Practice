@@ -1,0 +1,20 @@
+body {
+          background: url(images/bg-image.jpg) no-repeat;
+          background-size: cover;
+          height: 100vh;
+}
+#country_name{
+          background-color: rgb(204, 174, 7);
+          padding: 10px;
+          border-radius: 10px;
+}
+.lead{
+          color: yellow;
+          font-size: 25px;
+          font-weight: bold;
+}
+#weather_status{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
